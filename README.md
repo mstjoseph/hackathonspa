@@ -43,80 +43,55 @@
 
 
 ## File Directory 
-> ### Spring Boot Server
-> #### Controller Layer 
->>[controller](../angularspringbootcrud/springboot2-jpa-crud/src/main/java/net/guides/springboot2/springboot2jpacrud/controller)
->> * [EmployeeController.java](../angularspringbootcrud/springboot2-jpa-crud/src/main/java/net/guides/springboot2/springboot2jpacrud/controller/EmployeeController.java)
->
-> #### Exception Handling 
->>[exception](../angularspringbootcrud/springboot2-jpa-crud/src/main/java/net/guides/springboot2/springboot2jpacrud/exception)
->> * [ErrorDetails.java](../angularspringbootcrud/springboot2-jpa-crud/src/main/java/net/guides/springboot2/springboot2jpacrud/exception/ErrorDetails.java)
->> * [GlobalExceptionHandler.java](../angularspringbootcrud/springboot2-jpa-crud/src/main/java/net/guides/springboot2/springboot2jpacrud/exception/GlobalExceptionHandler.java)
->> * [ResourceNotFoundException.java](../angularspringbootcrud/springboot2-jpa-crud/src/main/java/net/guides/springboot2/springboot2jpacrud/exception/ResourceNotFoundException.java) 
->
-> #### Model Layer
->>[model](../angularspringbootcrud/springboot2-jpa-crud/src/main/java/net/guides/springboot2/springboot2jpacrud/model)
->> * [Employee.java](../angularspringbootcrud/springboot2-jpa-crud/src/main/java/net/guides/springboot2/springboot2jpacrud/model/employee.java)
->
-> #### Repository Layer 
->>[respository](../angularspringbootcrud/springboot2-jpa-crud/src/main/java/net/guides/springboot2/springboot2jpacrud/repository)
->> * [EmployeeRepository.java](../angularspringbootcrud/springboot2-jpa-crud/src/main/java/net/guides/springboot2/springboot2jpacrud/repository/EmployeeRepository.java)
->
-> #### Application Properties 
->> * [application.properties](../angularspringbootcrud/springboot2-jpa-crud/src/resources/application.properties)
-> 
-> #### Spring Boot Application 
->> * [Springboot2JpaCrudApplication.java](../angularspringbootcrud/springboot2-jpa-crud/src/main/java/net/guides/springboot2/springboot2jpacrud/Springboot2JpacrudApplication.java)
-
 > ### Angular 10 Client 
 > #### Application Files 
->> * [angular.json](../angularspringbootcrud/angular10-springboot-client/angular10-client/angular.json)
->> * [index.html](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/index.html)
->> * [main.ts](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/main.ts)
->> * [polyfills.ts](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/polyfills.ts)
->> * [package.json](../angularspringbootcrud/angular10-springboot-client/angular10-client/package.json)
+>> * [angular.json](./angular.json)
+>> * [index.html](./src/index.html)
+>> * [main.ts](./src/main.ts)
+>> * [polyfills.ts](./src/polyfills.ts)
+>> * [package.json](./package.json)
 
 > #### Employee Object
->> * [Employee Object](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/employee.ts)
+>> * [Employee Object](./src/app/employee.ts)
 
 > #### Employee Service 
->> * [Employee Service](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/employee.service.ts)
+>> * [Employee Service](./src/app/employee.service.ts)
 
 > #### Create Employee
->> [Create Employee Component](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/create-employee)
->> * [create-employee.component.ts](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/create-employee/create-employee.component.ts)
->> * [create-employee.component.html](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/create-employee/create-employee.component.html)
+>> [Create Employee Component](./src/app/create-employee)
+>> * [create-employee.component.ts](./src/app/create-employee/create-employee.component.ts)
+>> * [create-employee.component.html](./src/app/create-employee/create-employee.component.html)
 
 > #### Employee Details 
->> [Employee-Details Component](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/employee-details)
->> * [employee-details.component.ts](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/employee-details/employee-details.component.ts)
->> * [employee-details.component.html](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/employee-details/employee-details.component.html)
+>> [Employee-Details Component](./src/app/employee-details)
+>> * [employee-details.component.ts](./src/app/employee-details/employee-details.component.ts)
+>> * [employee-details.component.html](./src/app/employee-details/employee-details.component.html)
 
 > #### Employee List 
->> [Employee-List Component](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/employee-list)
->> * [employee-list.component.ts](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/employee-list/employee-list.component.ts)
->> * [employee-list.component.html](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/employee-list/employee-list.component.html)
+>> [Employee-List Component](./src/app/employee-list)
+>> * [employee-list.component.ts](./src/app/employee-list/employee-list.component.ts)
+>> * [employee-list.component.html](./src/app/employee-list/employee-list.component.html)
 
 > #### Update Employee 
->> [Update Employee Component](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/update-employee)
->> * [update-employee.component.ts](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/update-employee/update-employee.component.ts)
->> * [update-employee.component.html](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/update-employee/update-employee.component.html)
+>> [Update Employee Component](./src/app/update-employee)
+>> * [update-employee.component.ts](./src/app/update-employee/update-employee.component.ts)
+>> * [update-employee.component.html](./src/app/update-employee/update-employee.component.html)
 
 > #### Application Routing 
->> * [app-routing.module.ts](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/app-routing.module.ts)
+>> * [app-routing.module.ts](./src/app/app-routing.module.ts)
 
 > #### Application Root Component
->> * [app.component.ts](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/app.component.ts)
->> * [app.component.html](../angularspringbootcrud/angular10-springboot-client/angular10-client/src/app/app.component.html)
+>> * [app.component.ts](./src/app/app.component.ts)
+>> * [app.component.html](./src/app/app.component.html)
 
 > ## Employee Management System 
 > ### Home Page
-> ![Home Page](../crudexample/img/home.png)
+> ![Home Page](./img/home.png)
 > ### Create
-> ![Create](../crudexample/img/create.png)
+> ![Create](./img/create.png)
 > ### Read
-> ![Read](../crudexample/img/read.png)
+> ![Read](./img/read.png)
 > ### Update
-> ![Update](../crudexample/img/update.png)
+> ![Update](./img/update.png)
 > ### Delete
-> ![Delete](../crudexample/img/delete.png)
+> ![Delete](./img/delete.png)
