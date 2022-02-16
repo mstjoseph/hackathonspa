@@ -14,8 +14,8 @@
 > * View an Employee
 
 ##Client and Server 
-> The [springboot2-jpa-crud](./springboot2-jpa-crud) directory develops the CRUD RESTful APIs for the Employee Management System using Spring Boot 2, JPA, and MySQL. 
-> The [angular10-client](./angular10-springboot-client) directory develops the single page application, using Angular 10 for front end development in this example. This application consumes the CRUD RESTful APIs developed and exposed by the springboot2-jpa-crud project. 
+> The [springboot2-jpa-crud](https://github.com/Sengupta-Accenture/SpringBoot-CRUD) directory develops the CRUD RESTful APIs for the Employee Management System using Spring Boot 2, JPA, and MySQL. 
+> The [angular10-client](https://github.com/Sengupta-Accenture/Angular10-CRUD) directory develops the single page application, using Angular 10 for front end development in this example. This application consumes the CRUD RESTful APIs developed and exposed by the springboot2-jpa-crud project. 
 
 
 ## Tools and Technologies 
